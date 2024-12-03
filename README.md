@@ -15,4 +15,4 @@
 
 **GitHub Pages**
 
-* [Ссылка на сайт в GitHub Pages](https://badstandup.github.io/kuda-ya-poedu/)
+* [Ссылка на сайт в GitHub Pages]([https://project-work-4.github.io/Final-project/)
