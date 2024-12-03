@@ -1,0 +1,33 @@
+.footer {
+  background-color: #ffcfa6;
+  width: 100%;
+  margin: 132px auto 0;
+  padding-top: 21%;
+  padding-bottom: 21%;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin: 90px auto 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 54px auto 0;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .footer {
+    margin: 44px auto 0;
+  }
+}
+
+.footer:hover {
+  box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.3);
+  
+}
+

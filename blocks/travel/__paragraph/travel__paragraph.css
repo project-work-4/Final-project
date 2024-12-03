@@ -1,0 +1,17 @@
+.travel__paragraph {
+  font-size: 12px;
+  line-height: 1.77;
+  font-weight: normal;
+  letter-spacing: .01em;
+  margin: 0 auto 25px 0;
+}
+
+ @media screen and (max-width: 1024px) {
+  .travel__paragraph {
+    margin: 0 auto 24px 0;
+  }
+ }
+
+.travel__paragraph:last-of-type {
+  margin-bottom: 0;
+}

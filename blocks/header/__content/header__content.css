@@ -1,0 +1,25 @@
+.header__content {
+  display: flex;
+  gap: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__content {
+    z-index: 10;
+    margin: 130px auto 0 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .header__content {
+    z-index: 10;
+    text-align: left;
+    margin: 100px auto 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

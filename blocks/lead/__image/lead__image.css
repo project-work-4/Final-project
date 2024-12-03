@@ -1,0 +1,22 @@
+.lead__image {
+  min-width: 356px;
+  max-height: 356px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    width: 100%;
+    min-width: 288px;
+    max-height: 320px;
+    position: unset;
+    margin: 24px 0 0;
+  }
+}
+
+

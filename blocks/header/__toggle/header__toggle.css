@@ -1,0 +1,19 @@
+.header__toggle {
+    display: none;
+  }
+
+ .header__toggle:checked + .hamburger .top-bun {
+  width: 20px;
+  top: 8px;
+ }
+.header__toggle:checked + .hamburger .bottom-bun {
+  opacity: 0;
+}
+.header__toggle:checked + .hamburger .meat {
+  width: 20px;
+  top: 0;
+}
+
+.header__toggle:checked + .hamburger + .header__menu {
+  top: 0;
+}

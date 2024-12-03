@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Monstserrat';
+  font-style: normal;
+  font-weight: normal;
+  src: url("./Montserrat-Medium.woff2") format("woff2"),
+  url("./Montserrat-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Monstserrat';
+  font-style: normal;
+  font-weight: bold;
+  src: url("./Montserrat-Bold.woff2") format("woff2"),
+  url("./Montserrat-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: url("./Robotomonomedium.woff2") format("woff2"),
+  url("./Robotomonomedium.woff") format("woff");
+}

@@ -1,0 +1,27 @@
+.travel__text-container {
+  width: 50%;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+  padding: 60px 35px 60px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .travel__text-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .travel__text-container {
+    padding: 54px 42px 24px 42px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .travel__text-container {
+    padding: 44px 16px 24px 16px;
+  }
+}

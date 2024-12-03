@@ -1,0 +1,16 @@
+.people__subtitle {
+  margin: 0 auto 0 0;
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: .04em;
+  color: #FFCFA6;
+}
+
+@media screen and (max-width: 428px) {
+  .people__subtitle {
+    font-size: 10px;
+  }
+}

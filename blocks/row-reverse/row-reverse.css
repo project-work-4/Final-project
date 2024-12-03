@@ -1,0 +1,9 @@
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1024px) {
+  .travel {
+  flex-direction: column-reverse;
+  }
+}

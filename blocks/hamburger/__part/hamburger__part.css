@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+  .hamburger__part {
+    position: relative;
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: black;
+    margin-top: 6px;
+  }
+  .hamburger__part:first-of-type {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,44 @@
+.lead {
+  max-width: 1052px;
+  height: 100vh;
+  max-height: 356px;
+  min-height: 320px;
+  margin: 85px 0 0 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+@media screen and (max-width: 1210px) {
+  .lead {
+    max-width: 100%;
+    margin: 85px 70px 0 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin: 65px 56px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-height: none;
+    height: auto;
+    margin: 90px 42px 0;
+    position: unset;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .lead {
+    margin: 66px 16px 0;
+  }
+}
+
+.lead:hover .lead__image {
+  box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,17 @@
+.travel__paragraphs-container {
+  max-width: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+  .travel__paragraphs-container {
+    max-width: 70%;
+    margin-top: 44px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .travel__paragraphs-container {
+    max-width: 100%;
+    margin-top: 44px;
+  }
+}

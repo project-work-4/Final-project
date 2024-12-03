@@ -1,0 +1,15 @@
+.travel {
+  width: 100%;
+  min-height: 534px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .travel {
+    flex-direction: column-reverse;
+    min-height: auto;
+  }
+}

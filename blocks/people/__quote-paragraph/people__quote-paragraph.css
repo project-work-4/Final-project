@@ -1,0 +1,14 @@
+.people__quote-paragraph {
+  margin: 25px auto 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.63;
+  quotes: none;
+}
+
+@media screen and (max-width: 768px) {
+  .people__quote-paragraph {
+    margin: 16px auto 0 0;
+  }
+}

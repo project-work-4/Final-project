@@ -1,0 +1,24 @@
+.header {
+  margin: 50px 70px 0;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin: 40px 56px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 34px 42px 0;
+  }
+}
+
+@media screen and (max-width: 428px) {
+
+  .header {
+    margin: 24px 16px 0;
+    z-index: 2;
+  }
+}

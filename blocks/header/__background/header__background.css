@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+  .header__background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    opacity: .6;
+    z-index: 4;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .header__background {
+    height: 66px;
+  }
+}
